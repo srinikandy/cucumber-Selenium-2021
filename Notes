@@ -1,0 +1,16 @@
+1) Create DriverFactory
+    a) We need a Browser type and it is passed from Maven Goals
+    b) If browser is passed as null then we set default browser
+    c) Driver would be initiated based on browser type
+    d) quit the browser once execution completed
+2) Create PageConnector
+    a) Page name is passed part of Cucumber Gherkin
+    b) Initiate page objects using Reflection and PageFactory
+    b) Required page object name is passed via gherkin
+    d) Access page object using reflection concept
+3) PropertyManager
+    a) Environment type is passed using Maven goal
+    b) define a method to read properties file
+    c) access above method and return desired property value
+4) Create StepDefinition files
+    a) create step definitions

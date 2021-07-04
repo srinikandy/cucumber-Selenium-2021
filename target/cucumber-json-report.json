@@ -1,0 +1,431 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-29T01:43:46.511Z",
+        "line": 22,
+        "name": "Test scenario",
+        "description": "",
+        "id": "this-is-demo-feature-file;test-scenario;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3741604200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Framework.Steps.Navigation.NavigationSteps.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13748797600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate to the \"googleURL\" url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"googleURL\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Framework.Steps.Navigation.NavigationSteps.user_navigate_to(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 93000500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the \"GoogleSearch\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GoogleSearch\"",
+                  "offset": 15
+                }
+              ],
+              "location": "Framework.Steps.Navigation.NavigationSteps.userIsOnThePage(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 372094000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user verify field is displayed",
+            "match": {
+              "location": "Framework.Steps.Validation.ValidationSteps.userVerifyFieldIsDisplayed(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "WebElement"
+                ]
+              },
+              {
+                "cells": [
+                  "search"
+                ]
+              },
+              {
+                "cells": [
+                  "search"
+                ]
+              },
+              {
+                "cells": [
+                  "search"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3308061700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters \"Selenium\" in the \"search\" text box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Selenium\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"search\"",
+                  "offset": 30
+                }
+              ],
+              "location": "Framework.Steps.Navigation.NavigationSteps.userEntersInTheTextBox(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 288001300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user takes screenshot as \"googleSearch_1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"googleSearch_1\"",
+                  "offset": 25
+                }
+              ],
+              "location": "Framework.Steps.Screenshots.CaptureScreenshotsSteps.userTakesScreenshotAsGooleSearch_Row(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8890000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user click on the \"searchButton\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"searchButton\"",
+                  "offset": 18
+                }
+              ],
+              "location": "Framework.Steps.Actions.ActionsSteps.userClickOnTheButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13000600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is on the \"GoogleSearchResults\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GoogleSearchResults\"",
+                  "offset": 15
+                }
+              ],
+              "location": "Framework.Steps.Navigation.NavigationSteps.userIsOnThePage(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 535996700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user wait until \"results\" are visible",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"results\"",
+                  "offset": 16
+                }
+              ],
+              "location": "Framework.Steps.Waits.WaitsSteps.userWaitUntilIsVisible(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32003800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user verify \"results\" displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"results\"",
+                  "offset": 12
+                }
+              ],
+              "location": "Framework.Steps.Validation.ValidationSteps.userVerifyDisplayed(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Scenario1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-29T01:44:17.755Z",
+        "line": 23,
+        "name": "Test scenario",
+        "description": "",
+        "id": "this-is-demo-feature-file;test-scenario;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 4186147200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Framework.Steps.Navigation.NavigationSteps.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11344411300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate to the \"googleURL\" url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"googleURL\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Framework.Steps.Navigation.NavigationSteps.user_navigate_to(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2999700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the \"GoogleSearch\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GoogleSearch\"",
+                  "offset": 15
+                }
+              ],
+              "location": "Framework.Steps.Navigation.NavigationSteps.userIsOnThePage(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 183000100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user verify field is displayed",
+            "match": {
+              "location": "Framework.Steps.Validation.ValidationSteps.userVerifyFieldIsDisplayed(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "WebElement"
+                ]
+              },
+              {
+                "cells": [
+                  "search"
+                ]
+              },
+              {
+                "cells": [
+                  "search"
+                ]
+              },
+              {
+                "cells": [
+                  "search"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3131634300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters \"cucumber\" in the \"search\" text box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cucumber\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"search\"",
+                  "offset": 30
+                }
+              ],
+              "location": "Framework.Steps.Navigation.NavigationSteps.userEntersInTheTextBox(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 180004100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user takes screenshot as \"googleSearch_2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"googleSearch_2\"",
+                  "offset": 25
+                }
+              ],
+              "location": "Framework.Steps.Screenshots.CaptureScreenshotsSteps.userTakesScreenshotAsGooleSearch_Row(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6328852400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user click on the \"searchButton\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"searchButton\"",
+                  "offset": 18
+                }
+              ],
+              "location": "Framework.Steps.Actions.ActionsSteps.userClickOnTheButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2999600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is on the \"GoogleSearchResults\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GoogleSearchResults\"",
+                  "offset": 15
+                }
+              ],
+              "location": "Framework.Steps.Navigation.NavigationSteps.userIsOnThePage(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 493995700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user wait until \"results\" are visible",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"results\"",
+                  "offset": 16
+                }
+              ],
+              "location": "Framework.Steps.Waits.WaitsSteps.userWaitUntilIsVisible(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33000700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user verify \"results\" displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"results\"",
+                  "offset": 12
+                }
+              ],
+              "location": "Framework.Steps.Validation.ValidationSteps.userVerifyDisplayed(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Scenario1"
+          }
+        ]
+      }
+    ],
+    "name": "This is demo feature file",
+    "description": "",
+    "id": "this-is-demo-feature-file",
+    "keyword": "Feature",
+    "uri": "classpath:features/Example.feature",
+    "tags": []
+  }
+]
